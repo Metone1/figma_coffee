@@ -394,7 +394,7 @@ template {
 
 .top__menu {
   display: flex;
-  margin: 0 7.396vw 0 14.01vw;
+  margin: 0 7.031vw 0 14.01vw;
   -moz-column-gap: 1.667vw;
        column-gap: 1.667vw;
 }
@@ -733,7 +733,7 @@ select:-webkit-autofill:focus {
 .stars p {
   width: 1.25vw;
   height: 0.729vw;
-  line-height: 1;
+  line-height: 1.1;
 }
 
 .block__description {

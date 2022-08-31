@@ -7,3 +7,11 @@ const mySwiper = new Swiper(
       el: '.swiper-pagination',
    }
 });
+
+const burgerMenu = document.querySelector('.top__burger');
+if (burgerMenu) {
+   burgerMenu.addEventListener('click', function () {
+      document.body.classList.toggle('lock');
+      burgerMenu.classList.toggle('active');
+   });
+}

@@ -8,6 +8,7 @@ const mySwiper = new Swiper(
    }
 });
 
+
 const burgerMenu = document.querySelector('.top__burger');
 if (burgerMenu) {
    burgerMenu.addEventListener('click', function () {

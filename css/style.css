@@ -1216,7 +1216,7 @@ select:-webkit-autofill:focus {
     opacity: 30%;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   .header__bg-bottom {
     bottom: 929px;
   }
